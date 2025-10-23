@@ -1,0 +1,41 @@
+.app-header {
+  padding: 1rem 2rem;
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-main {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--primary-color);
+  text-shadow: var(--primary-glow);
+  margin-right: 1rem;
+}
+
+.logo-sub {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.team-info {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.team-info strong {
+  color: var(--text-color);
+  font-weight: 700;
+}
